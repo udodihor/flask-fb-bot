@@ -52,7 +52,27 @@ or
 
 download and install automatically [here](https://cli-assets.heroku.com/heroku.pkg).
 
-After Heroku CLI successfully installed, we could create our first application! :clap:
+After Heroku CLI is successfully installed, we could create our first heroku application! :clap:
+
+### 4. Heroku app creation
+In your terminal, run next command:
+`$ heroku login` and push any button.
+
+You'll be redirected to default browser app and asked for login to your heroku account. After successfull login, go back to your terminal window. Now you're logged in.
+To create new app, run command:
+`$ heroku create`
+
+If all goes well, you will see something similar to:
+![Image for step_5](https://i.imgur.com/yUb1Gyp.png)
+
+Heroku will automatically create a new application instance in your account. After creation, you will see a git URL to your heroku app (we will deploy our bot there).
+
+Finaly, to deploy the app, paste next command in your terminal:
+`$ git push heroku master`
+
+##### :warning: NOTE: If you cloned this repo, it will works fine. If your just downloaded the files, you will need to initiate git repo, and create first commit and only than start to push your code to heroku: 
+`$ git init.`
+`$ git add -A && git commint -m "First commit"`
 
 
 ### 4. Set up Webhook
