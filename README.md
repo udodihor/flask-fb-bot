@@ -81,7 +81,7 @@ Finally, to deploy the app, paste next command in your terminal:
 
 `$ git add -A && git commint -m "First commit"`
 
-After that, copy the URL of your heroku web-app you previously created. You can check it in your heroku account (go into the created applicateion, and find an "Open" button). 
+After that, copy the URL of your heroku web-app you previously created. You can check it in your heroku account (go into the created application, and find an "Open" button). 
 
 ### 5. Set up Webhook
 In Facebook Developer Center, in your Messenger settings, add a Callback URL to Webhooks section:
