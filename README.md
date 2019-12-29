@@ -96,7 +96,7 @@ So, it was a final step. Go to your messages in Facebook, create a new message a
 
 ![Image of final](https://i.imgur.com/eZ1fytL.png)
 
-Enjoy & Thanks you! :clap: :raised_hands:
+Enjoy & Thank you! :clap: :raised_hands:
 
 Alternative deployment, using ngrok is [here](https://www.twilio.com/blog/2017/12/facebook-messenger-bot-python.html)
 
