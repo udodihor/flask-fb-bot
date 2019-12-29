@@ -1,6 +1,6 @@
 # flask-fb-bot
-Basic Facebook bot (chats with you using random phrases) using Flask and Python.
-You can start with this bot as a basic staff to build something more difficult and useful.
+Basic Facebook bot (will chat with you using random phrases you set up) using Flask and Python.
+You can start with this bot as a basic app to build something more difficult and useful.
 
 ### What do you need to run this bot?
 1. Sublime + Terminal
@@ -9,7 +9,7 @@ You can start with this bot as a basic staff to build something more difficult a
 4. 30 min of your time
 
 ### Bot app
-You can just clone the source code from this repo. Only few things you will need to change (Tokens Variables).
+You can just clone a source code from this repo. Only few things you will need to change (Token Variables).
 After copying current code, go to your Terminal, open the project folder and run the following command:
 
 `$ pip install -r requirements.txt`
