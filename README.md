@@ -31,7 +31,7 @@ Create a new application with a random name. Next, when prompted on the next pag
 ![Image of step_1](https://i.imgur.com/fhV34om.png)
 
 #### 1.2. Generate Access token
-After you were redirected on the Settings page, you need to select or create a specific Facebook Page (Public ommunity or other) to assign to your bot.
+After you were redirected on the Settings page, you need to select or create a specific Facebook Page (Public community or other) to assign to your bot.
 
 ![Image of Step_2](https://i.imgur.com/4dWhMMD.png)
 
@@ -39,14 +39,14 @@ After you were redirected on the Settings page, you need to select or create a s
 
 Now, you need to Generate Token for your app and actually paste this FB token to your application in `app.py` find `ACCESS_TOKEN = 'GENERATED_TOKEN_FROM_FACEBOOK'` and change value with your generated token.
 
-#### 1.3. Create Veify Token
+#### 1.3. Create Verify Token
 Next, in the `VERIFY_TOKEN` value put any variable you want. To protect your bot, Facebook requires you to have a verify token. When a user messages your bot, Facebook will send your bot the message along with this verify token for your Flask app to check and verify the message is an authentic request sent by Facebook. Choose a string you want to use for your verify token and replace the placeholder in the app.py file with your code (ex. “TESTINGTOKEN” could be your verify token, but I’d recommend something harder for someone to guess) and place the same token (minus the quotation marks) in the Verify Token field.
 
 ### 2. Create a Heroku account
 Register on [Heroku](https://heroku.com). It's free.
 
 ### 3. Setup Heroku CLI
-Go to your terminal, and paste follwing command:
+Go to your terminal, and paste following command:
 
 `$ brew tap heroku/brew && brew install heroku`
 
@@ -61,7 +61,7 @@ In your terminal, run next command:
 
 `$ heroku login` and push any button.
 
-You'll be redirected to default browser app and asked for login to your heroku account. After successfull login, go back to your terminal window. Now you're logged in.
+You'll be redirected to default browser app and asked for login to your heroku account. After successful login, go back to your terminal window. Now you're logged in.
 To create new app, run command:
 
 `$ heroku create`
@@ -71,7 +71,7 @@ If all goes well, you will see something similar to:
 
 Heroku will automatically create a new application instance in your account. After creation, you will see a git URL to your heroku app (we will deploy our bot there).
 
-Finaly, to deploy the app, paste next command in your terminal:
+Finally, to deploy the app, paste next command in your terminal:
 
 `$ git push heroku master`
 
