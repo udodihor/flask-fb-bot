@@ -23,14 +23,14 @@ http://localhost:5000
 
 You will see an error: Invalid verification token. 
 
-### Set up a Facebook Application
-#### Create app
+### 1. Set up a Facebook Application
+#### 1.1. Create app
 Go to: https://developers.facebook.com/apps
 Create a new application with a random name. Next, when prompted on the next page for the type of product you are building, click the “Set Up” button on the Messenger option.
 
 ![Image of step_1](https://i.imgur.com/fhV34om.png)
 
-#### Generate Access token
+#### 1.2. Generate Access token
 After you were redirected on the Settings page, you need to select or create a specific Facebook Page (Public ommunity or other) to assign to your bot.
 
 ![Image of Step_2](https://i.imgur.com/4dWhMMD.png)
@@ -41,10 +41,10 @@ Now, you need to Generate Token for your app and actually paste this FB token to
 
 Next, in the `VERIFY_TOKEN` value put any variable you want. To protect your bot, Facebook requires you to have a verify token. When a user messages your bot, Facebook will send your bot the message along with this verify token for your Flask app to check and verify the message is an authentic request sent by Facebook. Choose a string you want to use for your verify token and replace the placeholder in the app.py file with your code (ex. “TESTINGTOKEN” could be your verify token, but I’d recommend something harder for someone to guess) and place the same token (minus the quotation marks) in the Verify Token field.
 
-### Create a Heroku account
+### 2. Create a Heroku account
 Register on [Heroku](https://heroku.com). It's free.
 
-### Setup Heroku CLI
+### 3. Setup Heroku CLI
 Go to your terminal, and paste follwing command:
 
 `$ brew tap heroku/brew && brew install heroku`
@@ -55,4 +55,4 @@ download and install automatically [here](https://cli-assets.heroku.com/heroku.p
 After Heroku CLI successfully installed, we could create our first application! :clap:
 
 
-#### Set up Webhook
+### 4. Set up Webhook
