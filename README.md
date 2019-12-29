@@ -26,5 +26,5 @@ You will see an error: Invalid verification token.
 Go to: https://developers.facebook.com/apps
 Create a new application with a random name. Next, when prompted on the next page for the type of product you are building, click the “Set Up” button on the Messenger option.
 
-![Image of step_1](https://imgur.com/fhV34om)
+![Image of step_1](https://i.imgur.com/fhV34om.png)
 
